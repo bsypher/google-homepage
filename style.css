@@ -1,0 +1,90 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+}
+header,footer,nav,{
+	display:block;
+}
+header{
+	margin: 20px;
+}
+.centrenav{
+	text-align: center;
+	padding:8px;
+	margin: 8px;
+	position: relative;
+	
+} 
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	max-height:100%;
+	width: 351px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+}
+li{
+	padding: 4px;
+	margin: 0 auto;
+
+}
+.right{
+	float:right;
+}
+.google_menu{
+	float:left;
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	background-color:#F5F5F5;
+	color:gray;
+	padding:15px;
+	font-size: 11px;
+}
+.left{
+	float:left;
+}
+footer{
+	border:2 px solid black;
+	background-color: #F5F5F5;
+	padding-top: 20px;
+	color:gray;
+	position: absolute;
+	right: 0;
+	left:0;
+	bottom:0;
+	padding: 1rem;
+	
+}
+
+#button{
+	background-color: blue;
+	color:white;
+	float:right;
+	left:125px;
+	height:32px;
+	padding:0;
+	width: 73px;
+	border-radius: 2px;
+	font-weight: bolder;
+	font-size: 95%;
+	border: none;
+
+}
+#google_submit{
+	margin-top:30px;
+	margin-right: 1.5px
+	font-weight:bold;
+	border-width: 1px;
+	border-style: :solid;
+	}
